@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+    background-color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    color: #2E2F42;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+
+.logo-blue {
+    color: #4D5AE5;
+}
+
+.nav-menu {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.adres {
+    text-decoration: none;
+    font-style: normal;
+    color: #2E2F42;
+}
+
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+
+}
+
+.hero-btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.advant-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    color: #2E2F42;
+}
+
+
+.product-head,
+.team-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-spec {
+    text-align: center;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
