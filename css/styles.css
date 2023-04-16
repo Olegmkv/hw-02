@@ -1,20 +1,34 @@
+:root {
+    --primary-fon-color: #ffffff;
+    --primary-text-color: #434455;
+    --second-color: #2E2F42;
+    --accent-color: #F4F4FD;
+    --button-color: #4D5AE5;
+    --button-accent-color: #404bbf;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--primary-text-color);
+    background-color: var(--primary-fon-color);
 }
 
 li {
     list-style-type: none;
 }
 
-.nav {
-    color: #2E2F42;
+/*naviganion*/
+
+.nav,
+.nav a {
+    color: var(--second-color);
 }
+
 
 .logo {
     text-transform: uppercase;
@@ -23,50 +37,55 @@ li {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    align-items: center;
     letter-spacing: 0.03em;
 }
 
 .logo-blue {
-    color: #4D5AE5;
+    color: var(--button-color);
 }
 
 .nav-menu {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
+
 }
 
 .adres {
     text-decoration: none;
     font-style: normal;
-    color: #2E2F42;
+    color: var(--second-color);
 }
+
+/*hero*/
 
 .hero {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    background-color: #2E2F42;
-    color: #FFFFFF;
+    background-color: var(--second-color);
+    color: var(--primary-fon-color);
 
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--button-color);
+    color: var(--primary-fon-color);
     align-items: center;
     letter-spacing: 0.04em;
 }
+
+/*Advantages*/
 
 .advant-head {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2px;
-    color: #2E2F42;
+    color: var(--second-color);
 }
 
+/*Advantages+team*/
 
 .product-head,
 .team-head {
@@ -75,11 +94,11 @@ li {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--second-color);
 }
 
 .team-section {
-    background-color: #F4F4FD;
+    background-color: var(--accent-color);
 }
 
 .team-member {
@@ -87,14 +106,43 @@ li {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
-    color: #2E2F42;
+    color: var(--second-color);
 }
 
 .team-spec {
     text-align: center;
 }
 
+/*portfolio*/
+
+.btn-filter {
+    background-color: var(--accent-color);
+    color: var(--button-color);
+
+}
+
+.link-portfolio {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+    background-color: var(--primary-fon-color)
+}
+
+.link-portfolio h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--second-color);
+}
+
+/*footer*/
+
 .footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
+    background-color: var(--second-color);
+    color: var(--accent-color);
 }
