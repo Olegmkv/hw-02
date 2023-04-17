@@ -151,11 +151,29 @@ body {
 
 /*portfolio*/
 
-.btn-filter {
+.filter-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
     background-color: var(--accent-color);
     color: var(--button-color);
 
 }
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+    background-color: var(--button-accent-color);
+    color: var(--primary-fon-color);
+}
+
 
 .link-portfolio {
     text-decoration: none;
