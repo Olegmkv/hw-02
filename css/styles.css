@@ -24,30 +24,36 @@ li {
 
 /*naviganion*/
 
-.logo,
+.logo-link,
 .nav-menu,
 .address {
     font-style: normal;
     text-decoration: none;
-    color: var(--second-color);
 }
 
-.logo {
+.logo-link {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--button-color);
 }
 
-.logo-blue {
-    color: var(--button-color);
+.logo-studio {
+    color: var(--second-color);
 }
 
 .nav-menu {
     font-weight: 500;
+    color: var(--second-color);
 }
+
+.address {
+    color: var(--second-color);
+}
+
 
 /*hero*/
 
@@ -136,5 +142,9 @@ li {
 
 .footer {
     background-color: var(--second-color);
+    color: var(--accent-color);
+}
+
+.logo-footer {
     color: var(--accent-color);
 }
