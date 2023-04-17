@@ -24,7 +24,10 @@ li {
 
 /*naviganion*/
 
-.logo-link,
+.logo-link {
+    text-decoration: none;
+}
+
 .nav-menu,
 .address {
     font-style: normal;
