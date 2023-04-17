@@ -152,7 +152,7 @@ body {
 /*portfolio*/
 
 .filter-btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -165,6 +165,7 @@ body {
     background-color: var(--accent-color);
     color: var(--button-color);
 
+    cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -187,13 +188,25 @@ body {
     background-color: var(--primary-fon-color)
 }
 
+.head-portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--second-color);
+}
+
+/*
 .link-portfolio h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--second-color);
 }
-
+*/
 /*footer*/
 
 .footer {
