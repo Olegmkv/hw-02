@@ -24,13 +24,6 @@ li {
 
 /*naviganion*/
 
-
-.nav-menu,
-.address {
-    font-style: normal;
-    text-decoration: none;
-}
-
 .link {
     text-decoration: none;
     text-transform: uppercase;
@@ -46,12 +39,16 @@ li {
     color: var(--second-color);
 }
 
-.nav-menu {
+.list {
+    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     color: var(--second-color);
 }
 
 .address {
+    font-style: normal;
+    text-decoration: none;
     color: var(--second-color);
 }
 
