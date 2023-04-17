@@ -24,9 +24,6 @@ li {
 
 /*naviganion*/
 
-.logo-link {
-    text-decoration: none;
-}
 
 .nav-menu,
 .address {
@@ -34,7 +31,8 @@ li {
     text-decoration: none;
 }
 
-.logo-link {
+.link {
+    text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
