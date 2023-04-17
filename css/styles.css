@@ -24,15 +24,17 @@ li {
 
 /*naviganion*/
 
-.nav,
-.nav a {
+.logo,
+.nav-menu,
+.address {
+    font-style: normal;
+    text-decoration: none;
     color: var(--second-color);
 }
 
 
 .logo {
     text-transform: uppercase;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -45,16 +47,7 @@ li {
 }
 
 .nav-menu {
-    text-decoration: none;
-    font-style: normal;
     font-weight: 500;
-
-}
-
-.adres {
-    text-decoration: none;
-    font-style: normal;
-    color: var(--second-color);
 }
 
 /*hero*/
