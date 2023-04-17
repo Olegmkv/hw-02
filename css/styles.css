@@ -43,16 +43,18 @@ body {
     color: var(--second-color);
 }
 
+.nav-list {
+    font-weight: 500;
+}
 
-.nav-list .link:hover,
-.nat-list .link:focus {
+.nav-list:hover,
+.nav-list:focus {
     color: var(--button-accent-color);
 }
 
 .address {
     font-style: normal;
     color: var(--second-color);
-    background-color: #2E2F42;
 }
 
 
