@@ -69,21 +69,33 @@ body {
 
 .hero {
     background-color: var(--second-color);
-    text-align: center;
 }
 
 .hero-head {
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--primary-fon-color);
 }
 
 .hero-btn {
-    background-color: var(--button-color);
-    color: var(--primary-fon-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
+
+    background-color: var(--button-color);
+    color: var(--primary-fon-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--button-accent-color);
 }
 
 /*Advantages*/
