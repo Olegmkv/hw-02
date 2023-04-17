@@ -39,7 +39,7 @@ li {
     color: var(--second-color);
 }
 
-.list {
+.list a {
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
