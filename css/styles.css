@@ -25,7 +25,6 @@ li {
 /*naviganion*/
 
 .link {
-    font-style: normal;
     text-decoration: none;
 }
 
@@ -44,11 +43,23 @@ li {
 }
 
 .list {
+    list-style: none;
     font-weight: 500;
     color: var(--second-color);
 }
 
+.click {
+    color: var(--second-color);
+}
+
+.click:hover,
+.click:focus {
+    color: var(--button-accent-color);
+}
+
 .address {
+    list-style: none;
+    font-style: normal;
     color: var(--second-color);
 }
 
