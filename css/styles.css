@@ -54,9 +54,16 @@ body {
 
 .address {
     font-style: normal;
-    color: var(--second-color);
 }
 
+.adr-list {
+    color: var(--primary-text-color);
+}
+
+.adr-list:hover,
+.adr-list:focus {
+    color: var(--button-accent-color);
+}
 
 /*hero*/
 
