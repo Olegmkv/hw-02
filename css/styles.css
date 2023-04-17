@@ -18,14 +18,15 @@ body {
     background-color: var(--primary-fon-color);
 }
 
-li {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
 /*naviganion*/
 
 .link {
     text-decoration: none;
+    color: var(--second-color);
 }
 
 .logo {
@@ -38,27 +39,17 @@ li {
     color: var(--button-color);
 }
 
-.logo-studio {
+.logo-gray {
     color: var(--second-color);
 }
 
-.list {
-    list-style: none;
-    font-weight: 500;
-    color: var(--second-color);
-}
 
-.click {
-    color: var(--second-color);
-}
-
-.list .link:hover,
-.list .link:focus {
+.nav-list .link:hover,
+.nat-list .link:focus {
     color: var(--button-accent-color);
 }
 
 .address {
-    list-style: none;
     font-style: normal;
     color: var(--second-color);
 }
