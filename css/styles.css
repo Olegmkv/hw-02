@@ -68,13 +68,15 @@ body {
 /*hero*/
 
 .hero {
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+.hero {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
-    background-color: var(--second-color);
     color: var(--primary-fon-color);
-
 }
 
 .hero-btn {
