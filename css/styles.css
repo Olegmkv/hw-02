@@ -52,8 +52,8 @@ li {
     color: var(--second-color);
 }
 
-.click:hover,
-.click:focus {
+.click a:hover,
+.click a:focus {
     color: var(--button-accent-color);
 }
 
